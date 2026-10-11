@@ -2399,3 +2399,112 @@ body.dark-mode .side-menu-links a {
     height: 24px;
   }
 }
+
+/* =========================
+   DARK MODE - SECTION FIX
+========================= */
+
+/* Consistent dark background */
+body.dark-mode .hero,
+body.dark-mode .section,
+body.dark-mode .skills-section,
+body.dark-mode .projects-section,
+body.dark-mode .certificates,
+body.dark-mode .services-section,
+body.dark-mode .what-you-get-section,
+body.dark-mode .contact {
+  background-color: #0f172a;
+  color: #f8fafc;
+}
+
+/* Keep all section headings visible and readable */
+body.dark-mode .section > h2,
+body.dark-mode .skills-section > h2,
+body.dark-mode .projects-section > h2,
+body.dark-mode .certificates > h2,
+body.dark-mode .services-section > h2,
+body.dark-mode .what-you-get-section > h2,
+body.dark-mode .contact > h2 {
+  color: #f8fafc;
+}
+
+/* Section descriptions */
+body.dark-mode .section > p,
+body.dark-mode .certificates-intro,
+body.dark-mode .services-intro,
+body.dark-mode .what-you-get-intro,
+body.dark-mode .contact > p {
+  color: #cbd5e1;
+}
+
+/* Skills heading and cards */
+body.dark-mode .skill-box h3 {
+  color: #ffffff;
+}
+
+body.dark-mode .skill-box p {
+  color: #f8fafc;
+}
+
+/* Project cards */
+body.dark-mode .project-card,
+body.dark-mode .certificate-card,
+body.dark-mode .service-card {
+  background: #1e293b;
+  border-color: #334155;
+  color: #f8fafc;
+}
+
+body.dark-mode .project-card h3,
+body.dark-mode .certificate-card h3,
+body.dark-mode .service-card h3,
+body.dark-mode .what-you-get-card h3 {
+  color: #f8fafc;
+}
+
+body.dark-mode .project-card p,
+body.dark-mode .certificate-organization,
+body.dark-mode .service-card p,
+body.dark-mode .what-you-get-card p {
+  color: #cbd5e1;
+}
+
+/* What You'll Get cards */
+body.dark-mode .what-you-get-card {
+  background: #1e293b;
+  border-color: #334155;
+  color: #f8fafc;
+}
+
+/* Hero text */
+body.dark-mode .hero h1,
+body.dark-mode .hero h2 {
+  color: #f8fafc;
+}
+
+/* Section headings must not remain transparent */
+body.dark-mode .skills-section > h2,
+body.dark-mode .projects-section > h2,
+body.dark-mode .certificates > h2,
+body.dark-mode .services-section > h2 {
+  opacity: 1;
+}
+
+/* Contact icons remain visible */
+body.dark-mode .contact-links a {
+  background: #1e293b;
+  border-color: #334155;
+}
+
+/* Smooth theme transition */
+body.dark-mode .section,
+body.dark-mode .project-card,
+body.dark-mode .certificate-card,
+body.dark-mode .service-card,
+body.dark-mode .skill-box,
+body.dark-mode .what-you-get-card {
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease,
+    border-color 0.3s ease;
+}

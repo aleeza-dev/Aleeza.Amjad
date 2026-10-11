@@ -2,13 +2,14 @@ import { useEffect, useRef, useState } from "react";
 import "./App.css";
 
 const projects = [
+  
   {
-    title: "Notes App",
+    title: "ROSHE — Women's Fashion E-commerce Store",
     description:
-      "A full-stack notes management application with authentication, Google Login, CRUD operations, search functionality and protected routes.",
-    tech: "React • Node.js • Express.js • MongoDB • JWT",
-    live: "https://notes-app-gxt2.vercel.app/",
-    github: "https://github.com/aleeza-dev/Notes-app",
+      "A modern women's fashion e-commerce website featuring dresses and accessories, with a clean celadon-green and white design.",
+    tech: "React, Node.js, Express.js, MongoDB, CSS",
+    live: "https://roshe-store.vercel.app/",
+    github: "https://github.com/aleeza-dev/Roshe_store",
   },
   {
     title: "Nexa AI – AI-Powered Chatbot Application",
@@ -27,12 +28,14 @@ const projects = [
     github: "https://github.com/aleeza-dev/CodePrep-Frontend",
   },
   {
-    title: "Weather Application",
+    title: "Notes App",
     description:
-      "A weather application that provides weather information through API integration with a responsive and user-friendly interface.",
-    tech: "HTML • CSS • JavaScript • Weather API",
-    github: "#",
+      "A full-stack notes management application with authentication, Google Login, CRUD operations, search functionality and protected routes.",
+    tech: "React • Node.js • Express.js • MongoDB • JWT",
+    live: "https://notes-app-gxt2.vercel.app/",
+    github: "https://github.com/aleeza-dev/Notes-app",
   },
+  
 ];
 
 function App() {
@@ -1137,6 +1140,18 @@ useEffect(() => {
             />
           </a>
 
+          <a
+            href="https://www.facebook.com/share/1E89NkDvpZ/"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Whatsapp"
+          >
+            <img
+              src="/social.png"
+              alt="WhatsApp"
+            />
+          </a>
+
         </div>
 
       </section>
@@ -1146,9 +1161,7 @@ useEffect(() => {
       ========================= */}
 
       <footer>
-        <p>
-          © 2026 Aleeza Amjad. All rights reserved.
-        </p>
+       
       </footer>
 
     </div>
