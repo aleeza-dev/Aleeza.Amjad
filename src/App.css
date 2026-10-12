@@ -1123,6 +1123,11 @@ a {
 .project-card {
   animation-delay: 0.8s;
 }
+.projects-animate
+.project-timeline-item:nth-child(5)
+.project-card {
+  animation-delay: 1s;
+}
 
 /* =========================
    CERTIFICATES

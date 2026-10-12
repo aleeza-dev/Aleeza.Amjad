@@ -11,6 +11,14 @@ const projects = [
     live: "https://roshe-store.vercel.app/",
     github: "https://github.com/aleeza-dev/Roshe_store",
   },
+   {
+    title: "NOIR — Luxury Restaurant & Online Ordering",
+    description:
+      "A luxury restaurant website featuring an elegant dining experience, curated menu, interactive shopping bag, checkout flow, and a full-stack order management API with MongoDB integration",
+    tech: "React, Node.js, Express.js, MongoDB, CSS",
+    live: "https://noir-restaurant-xi.vercel.app/",
+    github: "https://github.com/aleeza-dev/Noir_Restaurant",
+  },
   {
     title: "Nexa AI – AI-Powered Chatbot Application",
     description:
